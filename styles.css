@@ -79,12 +79,71 @@ main {
   background-color: rgb(209, 209, 209);
 }
 
-
-
 /*4. Footer styles*/
 footer {
   background-color: black;
   color: white;
   height: 30px;
   line-height: 30px;
+}
+
+/*5. Media queryes styles*/
+@media only screen and (min-width: 319px) and (max-width: 767px) {
+
+h1 {
+  font-size: 1.3rem;
+  grid-area: 1/1/2/5;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+}
+
+/*2. Header styles*/
+header {
+  height: 105px;
+  grid-template-columns: 4;
+}
+
+
+li { 
+  border: 1px white solid;
+  background-color: black;
+  margin: auto;
+}
+
+a {
+ font-size: 1rem;
+ border: none;
+}
+
+/*3. Calculadoras styles*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#promedio, #descuento, #f-a-c, #o-a-g {
+  border: 1px black solid;
+  padding: 10px;
+  background-color: rgb(209, 209, 209);
+  width: 100%;
+}
+
+/*4. Footer styles*/
+footer {
+  background-color: black;
+  color: white;
+  height: 37px;
+  line-height: 30px;
+}
+
+
 }
