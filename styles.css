@@ -79,6 +79,10 @@ main {
   background-color: rgb(209, 209, 209);
 }
 
+input {
+  background-color: white;
+}
+
 /*4. Footer styles*/
 footer {
   background-color: black;
@@ -103,7 +107,8 @@ h2 {
 
 p {
   font-size: 1.1rem;
-  line-height: 1.1rem;
+  line-height: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 /*2. Header styles*/
@@ -136,6 +141,7 @@ main {
   background-color: rgb(209, 209, 209);
   width: 100%;
 }
+
 
 /*4. Footer styles*/
 footer {
