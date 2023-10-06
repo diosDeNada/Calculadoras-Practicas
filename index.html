@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4 calculadoras Prácticas</title>
+  <meta name="keywords" content="calculadoras, básicas">
+  <meta name="description" content="Página con cuatro calculadoras rápidas para calculos básicos">
+  <meta name="author" content="diosDeNada_Arie/ariegonzaguer@gmail.com">
+  <link href="styles.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Cálculos básicos, rápidos y útiles</h1>
+    <nav>
+      <li><a href="#promedio">Monto por artículo</a></li>
+      <li><a href="#descuento">Porcentaje descuento</a></li>
+      <li><a href="#f-a-c">Fahrenheit a Celsius</a></li>
+      <li><a href="#o-a-g">Onzas a gramos</a></li>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="promedio">
+      <h2>Monto por artículo</h2>
+      <p>Acá podés saber cúanto te cuesta cada artículo según el precio total.<br>
+        Información que necesitás:<br>
+        -Monto total. Por ejemplo: 1 caja de galleta cuesta ¢1350.<br>
+        -Cantidad de artículos. Por ejemplo: 1 caja de galletas contiene 14 paquetes.<br>
+      </p>
+      <label for="montoTotalPromedio">Monto total</label>
+      <input type="number" name="montoTotalPromedio" id="montoTotalPromedio"><br>
+      <label for="cantidadArticulos">Cantidad Articulos</label>
+      <input type="number" name="cantidadArticulos" id="cantidadArticulos"><br>
+      <input type="button" id="mostrarPromedio" value="Mostrar resultado">
+      <div id="resultadoPromedio"></div>
+    </div>
+
+    <div id="descuento">
+      <h2>Descuento</h2>
+      <p>Acá podés saber cuál el descuento real que te están aplicando en una compra.<br>
+        Información que necesitás:<br>
+        -Monto total. Por ejemplo: Un escritorio vale ¢27545.<br>
+        -Descuento a aplicar. Por ejemplo: Al pagar el escritorio te hacen un 12% de descuento.<br>
+      </p>
+      <label for="montoT">Monto total</label>
+      <input type="number" name="montoT" id="montoT"><br>
+      <label for="descuentoFinal">Descuento</label>
+      <input type="number" name="descuentoFinal" id="descuentoFinal"><br>
+      <input type="button" id="mostrarDescuento" value="Mostrar descuento">
+      <div id="resultadoDescuento"></div>
+    </div>
+
+    <div id="f-a-c">
+      <h2>Fahrenheit a Celsius</h2>
+      <p>Acá podés convertir grados Fahrenheit a grados Celsius.<br>
+        Información que necesitás:<br>
+        -Grados en Fahrenheit. Por ejemplo: 100°F.<br>
+      </p>
+      <label for="gradosFarenheit">Grados Farenheit</label>
+      <input type="number" name="gradosFarenheit" id="gradosFarenheit"><br>
+      <input type="button" id="mostrarCelsius" value="Mostrar Celsius">
+      <div id="resultadoCelsius"></div>
+    </div>
+
+    <div id="o-a-g">
+      <h2>Onzas a gramos</h2>
+      <p>Acá podés convertir onzas a gramos rápidamente.<br>
+        Información que necesitás:<br>
+        -Masa en onzas. Por ejemplo: 3.6 Oz.<br>
+      </p>
+      <label for="onzas">Onzas</label>
+      <input type="number" name="onzas" id="onzas"><br>
+      <input type="button" id="mostrarOnzas" value="Mostrar Onzas">
+      <div id="resultadoGramos"></div>
+    </div>
+
+  </main>
+  <!--footer section-->
+  <footer id="footer">
+    <p>Página ficticia creada por diosDeNada / ariegonzaguer@gmail.com</p>
+  </footer>
+
+</body>
+
+</html>
